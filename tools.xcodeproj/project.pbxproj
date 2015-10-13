@@ -16,6 +16,7 @@
 		B6C02D871B578FC100CEC52F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C02D861B578FC100CEC52F /* Images.xcassets */; };
 		B6C02D8A1B578FC100CEC52F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6C02D881B578FC100CEC52F /* LaunchScreen.xib */; };
 		B6C02D961B578FC100CEC52F /* toolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C02D951B578FC100CEC52F /* toolsTests.m */; };
+		B6F8D7BB1BCD0C96007DE699 /* UIView+Borders.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F8D7BA1BCD0C96007DE699 /* UIView+Borders.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,8 @@
 		B6C02D941B578FC100CEC52F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6C02D951B578FC100CEC52F /* toolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = toolsTests.m; sourceTree = "<group>"; };
 		B6C02DA11B5790C100CEC52F /* ConstDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstDefine.h; sourceTree = "<group>"; };
+		B6F8D7B91BCD0C96007DE699 /* UIView+Borders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Borders.h"; sourceTree = "<group>"; };
+		B6F8D7BA1BCD0C96007DE699 /* UIView+Borders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Borders.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,8 @@
 		B6B94B251BCCAB00005E7434 /* UIViewUtil */ = {
 			isa = PBXGroup;
 			children = (
+				B6F8D7B91BCD0C96007DE699 /* UIView+Borders.h */,
+				B6F8D7BA1BCD0C96007DE699 /* UIView+Borders.m */,
 				B6B94B261BCCAB3D005E7434 /* UIView+HandyAutoLayout.h */,
 				B6B94B271BCCAB3D005E7434 /* UIView+HandyAutoLayout.m */,
 				B6B94B281BCCAB3D005E7434 /* UIView+LayoutMethods.h */,
@@ -249,6 +254,7 @@
 			files = (
 				B6C02D821B578FC100CEC52F /* ViewController.m in Sources */,
 				B6B94B2B1BCCAB3D005E7434 /* UIView+LayoutMethods.m in Sources */,
+				B6F8D7BB1BCD0C96007DE699 /* UIView+Borders.m in Sources */,
 				B6C02D7F1B578FC100CEC52F /* AppDelegate.m in Sources */,
 				B6B94B2A1BCCAB3D005E7434 /* UIView+HandyAutoLayout.m in Sources */,
 				B6C02D7C1B578FC100CEC52F /* main.m in Sources */,
