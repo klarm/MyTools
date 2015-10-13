@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6B94B2A1BCCAB3D005E7434 /* UIView+HandyAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B94B271BCCAB3D005E7434 /* UIView+HandyAutoLayout.m */; settings = {ASSET_TAGS = (); }; };
+		B6B94B2B1BCCAB3D005E7434 /* UIView+LayoutMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B94B291BCCAB3D005E7434 /* UIView+LayoutMethods.m */; settings = {ASSET_TAGS = (); }; };
 		B6C02D7C1B578FC100CEC52F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C02D7B1B578FC100CEC52F /* main.m */; };
 		B6C02D7F1B578FC100CEC52F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C02D7E1B578FC100CEC52F /* AppDelegate.m */; };
 		B6C02D821B578FC100CEC52F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C02D811B578FC100CEC52F /* ViewController.m */; };
@@ -27,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B6B94B261BCCAB3D005E7434 /* UIView+HandyAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HandyAutoLayout.h"; sourceTree = "<group>"; };
+		B6B94B271BCCAB3D005E7434 /* UIView+HandyAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HandyAutoLayout.m"; sourceTree = "<group>"; };
+		B6B94B281BCCAB3D005E7434 /* UIView+LayoutMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutMethods.h"; sourceTree = "<group>"; };
+		B6B94B291BCCAB3D005E7434 /* UIView+LayoutMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutMethods.m"; sourceTree = "<group>"; };
 		B6C02D761B578FC100CEC52F /* tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6C02D7A1B578FC100CEC52F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6C02D7B1B578FC100CEC52F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -61,6 +67,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B6B94B251BCCAB00005E7434 /* UIViewUtil */ = {
+			isa = PBXGroup;
+			children = (
+				B6B94B261BCCAB3D005E7434 /* UIView+HandyAutoLayout.h */,
+				B6B94B271BCCAB3D005E7434 /* UIView+HandyAutoLayout.m */,
+				B6B94B281BCCAB3D005E7434 /* UIView+LayoutMethods.h */,
+				B6B94B291BCCAB3D005E7434 /* UIView+LayoutMethods.m */,
+			);
+			name = UIViewUtil;
+			sourceTree = "<group>";
+		};
 		B6C02D6D1B578FC100CEC52F = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +135,7 @@
 		B6C02DA01B57906700CEC52F /* App */ = {
 			isa = PBXGroup;
 			children = (
+				B6B94B251BCCAB00005E7434 /* UIViewUtil */,
 				B6C02D7D1B578FC100CEC52F /* AppDelegate.h */,
 				B6C02D7E1B578FC100CEC52F /* AppDelegate.m */,
 				B6C02D801B578FC100CEC52F /* ViewController.h */,
@@ -230,7 +248,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6C02D821B578FC100CEC52F /* ViewController.m in Sources */,
+				B6B94B2B1BCCAB3D005E7434 /* UIView+LayoutMethods.m in Sources */,
 				B6C02D7F1B578FC100CEC52F /* AppDelegate.m in Sources */,
+				B6B94B2A1BCCAB3D005E7434 /* UIView+HandyAutoLayout.m in Sources */,
 				B6C02D7C1B578FC100CEC52F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
